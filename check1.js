@@ -50,7 +50,7 @@ function ekranaBastir() {
                           </button>
                         </div>
                         <div class="mt-2">
-                          Ürün Toplam: $<span class="ürün-toplam">${(
+                          Total Product: $<span class="ürün-toplam">${(
                             price *
                             indirim *
                             adet
@@ -77,19 +77,19 @@ function ekranaBastir() {
   document.querySelector("#card-prices").innerHTML = `<table class="table">
     <tbody>
       <tr class="text-end">
-        <th class="text-start">Aratoplam</th>
+        <th class="text-start">Subtotal</th>
         <td>$<span class="aratoplam">0.00</span></td>
       </tr>
       <tr class="text-end">
-        <th class="text-start">Vergi(18%)</th>
+        <th class="text-start">Tax(18%)</th>
         <td>$<span class="vergi">0.00</span></td>
       </tr>
       <tr class="text-end">
-        <th class="text-start">Kargo</th>
+        <th class="text-start">Shipping</th>
         <td>$<span class="kargo">0.00</span></td>
       </tr>
       <tr class="text-end">
-        <th class="text-start">Toplam</th>
+        <th class="text-start">Total</th>
         <td>$<span class="toplam">0.00</span></td>
       </tr>
     </tbody>
